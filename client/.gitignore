@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+jspm_packages/
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+build/
+
+# System files
+.DS_Store*
+Thumbs.db
+
+# IDEs and editors config files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.log
+*.lock
+*.bak
+*.tmp
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Angular specific
+.angular/
+.angular/cache/
+.angular/**
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]s[a-v][a-z]
+*.un~
+Session.vim
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+
+# Ignore npm debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
